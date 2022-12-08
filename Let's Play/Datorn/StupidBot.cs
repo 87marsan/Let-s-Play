@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Let_s_Play.Datorn
 {
-    internal class StupidGuesser : Guesser
+    internal class StupidBot : Guesser
     {
         
     }

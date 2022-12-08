@@ -10,12 +10,12 @@ namespace Let_s_Play.Datorn
     {
         private int _guess;
         private int _min = 1;
-        protected int _max = 1000;
+        private int _max = 1000;
         private int _tries = 0;
 
         public override int Guess()
         {
-            _guess = (_min + _max) / 2;                 //Börjar alltid på mitten
+            _guess = (_min + _max) / 2;                
             Console.WriteLine(_guess);
             return _guess;
         }
