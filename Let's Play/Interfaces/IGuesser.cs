@@ -8,8 +8,9 @@ namespace Let_s_Play.Interfaces
 {
     internal interface IGuesser
     {
-        void Guess();
-        void HandleFeedback(int feedback);
-        
+        int Guess();
+        void TooHigh();
+        void TooLow();
+        void Correct();
     }
 }
